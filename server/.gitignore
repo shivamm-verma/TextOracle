@@ -1,0 +1,15 @@
+# Ignore the virtual environment directory
+scholarenv/
+
+# Ignore environment variable file
+.env
+
+# Ignore other common Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files and databases
+*.log
+*.sqlite3
