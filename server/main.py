@@ -49,7 +49,7 @@ wiki_query_prompt = ChatPromptTemplate.from_messages([
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the TextOracle !!"}
+    return {"message": "Welcome to The Concluder !!"}
 
 @app.post("/pdf/summarize")
 async def summarize_pdf(file: UploadFile, language: str = Form("English")):

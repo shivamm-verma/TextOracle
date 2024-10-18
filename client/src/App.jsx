@@ -23,7 +23,7 @@ const App = () => {
             <AppBar position="static" sx={{ backgroundColor: '#000000' }}>
                 <Container maxWidth="lg">
                     <Toolbar>
-                        <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1, color: '#74f0ed', textDecoration: 'none' }}>
+                        <Typography  variant="h6" component={Link} to="/" sx={{ flexGrow: 1, color: '#74f0ed', textDecoration: 'none' }}>
                             SmartScholar
                         </Typography>
                         <Link to="/" style={navLinkStyle}>
@@ -32,7 +32,7 @@ const App = () => {
                         <Link to="/pdf-viewer" style={navLinkStyle}>
                             PDF Uploader
                         </Link>
-                        <Link to="/webpage" style={navLinkStyle}>
+                        <Link  to="/webpage" style={navLinkStyle}>
                             Web Page Summarization
                         </Link>
                         <Link to="/research-paper" style={navLinkStyle}>

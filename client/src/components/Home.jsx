@@ -28,10 +28,10 @@ const Home = () => {
   return (
     <Box sx={{ flexGrow: 1, p: 3, backgroundColor: "#000000" }}>
       <Typography variant="h3" align="center" gutterBottom sx={{ color: "#74f0ed" }}>
-        Welcome to TextOracle
+        Welcome to The Concluder
       </Typography>
       <Typography variant="h5" align="center" sx={{ color: "#b0b0b0" }}>
-        Your intelligent PDF summarization and querying assistant
+        Your intelligent conculder (PDF, WebPage, Research papers etc.)
       </Typography>
 
       <Grid container spacing={4} sx={{ mt: 4 }}>
