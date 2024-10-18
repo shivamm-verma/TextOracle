@@ -3,6 +3,8 @@ scholarenv/
 
 # Ignore environment variable file
 .env
+.myenv
+myenv
 
 # Ignore other common Python files
 __pycache__/
